@@ -1,0 +1,11 @@
+{
+  "name": "@workspace/root",
+  "type": "module",
+  "scripts": {
+    "start:protobuf": "node  --experimental-strip-types --disable-warning=ExperimentalWarning cases/protobuf/index.mts"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.30",
+    "protobufjs": "^7.5.3"
+  }
+}
